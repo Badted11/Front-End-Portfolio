@@ -1,0 +1,208 @@
+/* Reset and base styles */
+* {
+    padding: 0;
+    margin: 0;
+    border: none;
+    box-sizing: border-box;
+}
+
+:focus,
+:active {
+    outline: none;
+}
+
+a:focus,
+a:active {
+    outline: none;
+}
+
+/* Links */
+a, a:link, a:visited {
+    color: inherit;
+    text-decoration: none;
+}
+
+a:hover {
+    color: inherit;
+    text-decoration: none;
+}
+
+/* Common elements */
+aside, nav, footer, header, section, main {
+    display: block;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    font-size: inherit;
+    font-weight: inherit;
+    margin: 0; /* Remove default margins */
+}
+
+ul {
+    list-style: none;
+    padding: 0; /* Remove default padding */
+    margin: 0; /* Remove default margin */
+}
+
+img {
+    vertical-align: top;
+    max-width: 100%;
+    height: auto;
+}
+
+address {
+    font-style: normal;
+}
+
+/* Form elements */
+input,
+textarea,
+button,
+select {
+    font-family: inherit;
+    font-size: inherit;
+    color: #333; /* A contrasting text color */
+    background-color: #f9f9f9; /* Light background color */
+    border: 1px solid #ccc; /* Light border */
+    padding: 10px; /* Internal padding */
+    border-radius: 5px; /* Rounded corners */
+    transition: background-color 0.3s, border-color 0.3s; /* Smooth transitions */
+}
+
+input::placeholder,
+textarea::placeholder {
+    color: #aaa; /* Placeholder color */
+}
+
+input:focus,
+textarea:focus,
+button:focus,
+select:focus {
+    border-color: #66afe9; /* Blue border on focus */
+    background-color: #fff; /* White background on focus */
+}
+
+input::-ms-clear {
+    display: none;
+}
+
+button,
+input[type="submit"] {
+    display: inline-block;
+    box-shadow: none;
+    background-color: #007bff; /* Blue background */
+    color: white; /* White text */
+    cursor: pointer;
+    border: 1px solid #007bff;
+    padding: 10px 20px; /* Larger padding for buttons */
+    border-radius: 5px; /* Rounded corners */
+    transition: background-color 0.3s, border-color 0.3s; /* Smooth transitions */
+}
+
+button:hover,
+input[type="submit"]:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+    border-color: #0056b3;
+}
+
+button:active,
+input[type="submit"]:active {
+    background-color: #003f7f; /* Even darker blue on click */
+    border-color: #003f7f;
+}
+
+button::-moz-focus-inner {
+    padding: 0;
+    border: 0;
+}
+
+label {
+    cursor: pointer;
+    font-weight: 600; /* Bold text for labels */
+    margin-bottom: 5px; /* Space below labels */
+    display: block;
+}
+
+legend {
+    display: block;
+    font-weight: 600; /* Bold text for legend */
+    margin-bottom: 10px; /* Space below legend */
+}
+
+
+/* Form */
+
+/* Base styles */
+input,
+textarea,
+button,
+select {
+    font-family: inherit;
+    font-size: inherit;
+    color: #333; /* Более контрастный цвет для текста */
+    background-color: #f9f9f9; /* Светлый фон для удобства чтения */
+    border: 1px solid #ccc; /* Легкая граница для отделения элементов */
+    padding: 10px; /* Внутренние отступы для удобства использования */
+    border-radius: 5px; /* Скругленные углы для приятного внешнего вида */
+    transition: background-color 0.3s, border-color 0.3s; /* Плавный переход при наведении */
+}
+
+input::placeholder,
+textarea::placeholder {
+    color: #aaa; /* Цвет для плейсхолдера */
+}
+
+input:focus,
+textarea:focus,
+button:focus,
+select:focus {
+    outline: none; /* Убираем стандартное обрамление */
+    border-color: #66afe9; /* Синяя граница при фокусе */
+    background-color: #fff; /* Белый фон при фокусе */
+}
+
+input::-ms-clear {
+    display: none;
+}
+
+button,
+input[type="submit"] {
+    display: inline-block;
+    box-shadow: none;
+    background-color: #007bff; /* Синий фон для кнопок */
+    color: white; /* Белый текст на кнопках */
+    cursor: pointer;
+    border: 1px solid #007bff;
+    padding: 10px 20px; /* Увеличенные отступы для кнопок */
+    transition: background-color 0.3s, border-color 0.3s; /* Плавный переход при наведении */
+}
+
+button:hover,
+input[type="submit"]:hover {
+    background-color: #0056b3; /* Темно-синий фон при наведении */
+    border-color: #0056b3;
+}
+
+button:active,
+input[type="submit"]:active {
+    background-color: #003f7f; /* Еще темнее при клике */
+    border-color: #003f7f;
+}
+
+button::-moz-focus-inner {
+    padding: 0;
+    border: 0;
+}
+
+label {
+    cursor: pointer;
+    font-weight: 600; /* Полужирный текст для меток */
+    margin-bottom: 5px; /* Отступ снизу для меток */
+    display: block;
+}
+
+legend {
+    display: block;
+    font-weight: 600; /* Полужирный текст для легенды */
+    margin-bottom: 10px; /* Отступ снизу для легенды */
+}
